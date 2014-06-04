@@ -1,0 +1,27 @@
+{
+    "maxRetry": 3,
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "options": {},
+        "keyPrefix": "koa-js-rendered-cache:",
+        "expire": 86400
+    },
+
+    "casper": {
+        "logLevel": "info",
+        "timeout": 30000
+    },
+
+    "log": {
+        "type": "default",
+        "level": "INFO",
+        "appenders": [
+            {
+                "type": "file",
+                "filename": "logs/application.log",
+                "pattern": "-yyyy-MM-dd"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "js_rendered_html",
+  "private": true,
+  "description": "response js-rendered html",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
+  "dependencies": {
+    "koa": "0.5.2",
+    "koa-router": "*",
+    "spooky": "*",
+    "redis": "*",
+    "co-redis": "*",
+    "config": "*",
+    "log4js": "*"
+  },
+  "engines": {
+    "node": "0.11.12"
+  }
+}
